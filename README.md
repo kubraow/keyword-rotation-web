@@ -1,4 +1,4 @@
-🔁 Keyword Rotation – Linked Excel Web Application
+🔁 Keyword Rotation – Linked Excel Web Application (without frequency implementations)
 
 This application reads your uploaded keyword Excel file and generates a 4-keyword rotation for each marketplace and class.
 It outputs a clickable Excel file with hyperlinks for each keyword.
