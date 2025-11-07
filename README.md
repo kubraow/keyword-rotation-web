@@ -1,28 +1,26 @@
-# 🔁 Keyword Rotasyonu - Linkli Excel Web Uygulaması
+🔁 Keyword Rotation – Linked Excel Web Application
 
-Bu uygulama, yüklediğiniz keyword Excel dosyasını okuyup her marketplace ve class için
-4'lü keyword rotasyonu oluşturur. Sonuç olarak tıklanabilir linklerle Excel çıktısı verir.
+This application reads your uploaded keyword Excel file and generates a 4-keyword rotation for each marketplace and class.
+It outputs a clickable Excel file with hyperlinks for each keyword.
 
-## 🚀 Kullanım
+🚀 How to Use
+	1.	Upload this folder to GitHub (e.g., keyword-rotation-web).
+	2.	Go to https://streamlit.io/cloud￼.
+	3.	Click “Deploy an app” → Connect your GitHub account.
+	4.	Select the app.py file and click Deploy.
+	5.	Your app will be live within 1–2 minutes:
+Example: https://kubra-keyword-rotation.streamlit.app
 
-1. Bu klasörü GitHub’a yükleyin (örnek: `keyword-rotation-web`).
-2. [https://streamlit.io/cloud](https://streamlit.io/cloud) adresine gidin.
-3. "Deploy an app" → GitHub hesabınızı bağlayın.
-4. `app.py` dosyasını seçin ve Deploy’a tıklayın.
-5. Uygulamanız 1-2 dakika içinde yayınlanacak:  
-   örnek: `https://kubra-keyword-rotation.streamlit.app`
+💡 Alternative: Hugging Face Spaces
+	•	Visit https://huggingface.co/spaces￼.
+	•	Create a new Space and choose Streamlit as the framework.
+	•	Upload these project files.
+	•	The app will be automatically deployed.
 
-### 💡 Alternatif: Hugging Face Spaces
-- [https://huggingface.co/spaces](https://huggingface.co/spaces)’te yeni bir Space oluşturun.
-- Framework olarak **Streamlit** seçin.
-- Bu dosyaları yükleyin.
-- Uygulama otomatik olarak yayına alınacaktır.
+📦 Required Excel Format
 
-## 📦 Gerekli Excel Formatı
-Excel dosyanızda şu sütunlar bulunmalıdır:
+Your Excel file must contain the following columns:
+Marketplace  Class  Keywords
+DE          Class1  keyword1, keyword2, keyword3, …
 
-| Marketplace | Class | Keywords |
-|--------------|--------|----------|
-| DE           | Class1 | keyword1, keyword2, keyword3, ... |
-
-Uygulama her seferinde 4’erli gruplar halinde linkli Excel çıktısı oluşturur.
+The application automatically generates clickable Excel output files in groups of four keywords at a time.
